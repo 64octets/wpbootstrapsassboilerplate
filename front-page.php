@@ -20,6 +20,21 @@
 					</div>
   				</div>
 			</section>
+
+			<section>
+				<div class="chocolat-parent" data-chocolat-title="set title">
+				    <a class="chocolat-image" href="https://d13yacurqjgara.cloudfront.net/users/373338/screenshots/1968797/gambit_dribbble.png" title="caption image 1">
+				        <img width="100" src="https://d13yacurqjgara.cloudfront.net/users/373338/screenshots/1968797/gambit_dribbble.png" />
+				    </a>
+				    <a class="chocolat-image" href="https://d13yacurqjgara.cloudfront.net/users/373338/screenshots/1922720/jubilee_dribbble.png" title="caption image 2">
+				        <img width="100" src="https://d13yacurqjgara.cloudfront.net/users/373338/screenshots/1922720/jubilee_dribbble.png" />
+				    </a>
+				    <a class="chocolat-image" href="https://d13yacurqjgara.cloudfront.net/users/373338/screenshots/1903948/cyclops_dribbble.png" title="caption image 3">
+				        <img width="100" src="https://d13yacurqjgara.cloudfront.net/users/373338/screenshots/1903948/cyclops_dribbble.png"/>
+				    </a>
+				</div>
+			</section>
+
 			<section>
 				<div class="container">
 					<h1><?php the_title(); ?></h1>

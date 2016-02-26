@@ -72,6 +72,10 @@
 			  // at end of cells, wraps-around to first for infinite scrolling
 
 			});
+
+		$(document).ready(function(){
+    		$('.chocolat-parent').Chocolat();
+		});
 		
 	});
 	

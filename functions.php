@@ -107,6 +107,9 @@ function html5blank_header_scripts()
         wp_register_script('flickity', get_template_directory_uri() . '/js/lib/flickity.pkgd.min.js', array(), '1.1.2'); // Flickity
         wp_enqueue_script('flickity'); // Enqueue it!
 
+        wp_register_script('chocolat', get_template_directory_uri() . '/js/lib/jquery.chocolat.js', array(), '1.0.0'); // Chocolat
+        wp_enqueue_script('chocolat'); // Enqueue it!
+
     }
 }
 
@@ -127,6 +130,9 @@ function html5blank_styles()
 
     wp_register_style('flickity', get_template_directory_uri() . '/css/flickity.min.css', array(), '1.1.2', 'all');
     wp_enqueue_style('flickity'); // Enqueue it!
+
+    wp_register_style('chocolat', get_template_directory_uri() . '/css/chocolat.css', array(), '1.0.0', 'all');
+    wp_enqueue_style('chocolat'); // Enqueue it!
 }
 
 // Register HTML5 Blank Navigation
