@@ -4,7 +4,11 @@
 		
 		'use strict';
 		
-		// DOM ready, take it away
+		$('.main-gallery').flickity({
+			  // options
+			  cellAlign: 'left',
+			  contain: true
+			});
 		
 	});
 	
