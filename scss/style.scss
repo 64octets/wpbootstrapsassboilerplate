@@ -61,3 +61,33 @@
 // Utility classes
 @import "bootstrap/utilities";
 @import "bootstrap/responsive-utilities";
+
+.gallery {
+  width: 100%; /* full width */
+  height: 500px;
+  background: #FF4B53;
+  
+  .gallery-cell {
+    height: 100%;
+    width: auto;
+    img {
+      height: 100%;
+    }
+  }
+}
+/* position dots in gallery */
+.flickity-page-dots {
+  bottom: 12px;
+}
+/* white circles */
+.flickity-page-dots .dot {
+  width: 12px;
+  height: 12px;
+  opacity: 1;
+  background: transparent;
+  border: 2px solid white;
+}
+/* fill-in selected dot */
+.flickity-page-dots .dot.is-selected {
+  background: white;
+}
